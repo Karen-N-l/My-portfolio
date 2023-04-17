@@ -322,8 +322,10 @@ form .btn{
 
 }
 /*------css for small screens-----*/
-nav.fa-solid{
-    display: none
+@media screen and (min-width:768px) {
+  nav.fa-solid{
+    display: none;
+  }  
 }
 @media only screen and (max-width:600px){
     .header-text{
