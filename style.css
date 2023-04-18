@@ -161,6 +161,7 @@ nav ul li a:hover::after{
     margin-bottom: 30px;
 
 }
+
 .services-list div h2{
     font-size: 30px;
     font-weight: 500;
@@ -322,10 +323,14 @@ form .btn{
 
 }
 /*------css for small screens-----*/
-@media screen and (min-width:768px) {
-  nav.fa-solid{
-    display: none;
-  }  
+ @media screen and (min-width:768px) {
+    .my-menu{
+       
+        display: none;
+        visibility: hidden;
+        position: absolute;
+        
+ }
 }
 @media only screen and (max-width:600px){
     .header-text{
